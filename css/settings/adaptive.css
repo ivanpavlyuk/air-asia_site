@@ -1,0 +1,26 @@
+@media (max-width: 1120px) {
+    .travels__title,
+    .news__title {
+        text-align: center;
+    }
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 1180px) {
+    .info {
+        height: 552px;
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: start;
+        gap: 20px;
+    }
+    .info__about {
+        position: static;
+    }
+}

@@ -1,0 +1,10 @@
+.footer__container {
+    height: 146px;
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 0 65px 0;
+}
+
+.footer__nav {
+    margin-right: 274px;
+}

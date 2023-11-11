@@ -1,0 +1,11 @@
+.news__list {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 57.5px;
+}
+
+.news__title {
+    margin-bottom: 51px;
+}

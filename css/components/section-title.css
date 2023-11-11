@@ -12,3 +12,7 @@
     height: 28px;
     background-image: url(../../img/flame.png);
 }
+
+.section-title_color_black {
+    color: #000;
+}

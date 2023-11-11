@@ -1,0 +1,15 @@
+.main__container {
+    background-image: url(../../img/second-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.main__container:after {
+    content: "";
+    display: block;
+    height: 4px;
+    background-color: #fff;
+    opacity: 10%;
+    margin-top: 53px;
+}

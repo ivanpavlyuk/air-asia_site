@@ -1,0 +1,15 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 289px;
+}
+
+.nav__logo {
+    margin-right: 79px;
+}
+
+.nav__menu {
+    display: flex;
+    line-height: 19.07px;
+    gap: 20px;
+}

@@ -3,12 +3,17 @@
     height: 449px;
     display: flex;
     flex-direction: column;
-    border-radius: 0px, 0px, 5px, 5px;
     background-color: #fff;
     color: #303030;
+    border-radius: 5px;
 }
 
-.card__wrapper {
+.card__img {
+    display: block;
+    border-radius: 5px;
+}
+
+.card__inner {
     padding: 33px 16px 26px 24px;
 }
 
@@ -28,6 +33,8 @@
 }
 .card__duration {
     margin-right: 28px;
+    display: flex;
+    align-items: center;
 }
 .card__duration:before {
     content: "";
@@ -37,6 +44,12 @@
     background-image: url(../../img/calendar.png);
     margin-right: 10px;
 }
+
+.card__features {
+    display: flex;
+    align-items: center;
+}
+
 .card__features:before {
     content: "";
     display: inline-block;

@@ -1,0 +1,51 @@
+.card {
+    width: 362px;
+    height: 449px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px, 0px, 5px, 5px;
+    background-color: #fff;
+    color: #303030;
+}
+
+.card__wrapper {
+    padding: 33px 16px 26px 24px;
+}
+
+.card__title {
+    font-size: 24px;
+    line-height: 32.68px;
+    font-weight: 700;
+    margin-bottom: 21px;
+    color: #000;
+}
+.card__info {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 23.5px;
+}
+.card__duration {
+    margin-right: 28px;
+}
+.card__duration:before {
+    content: "";
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-image: url(../../img/calendar.png);
+    margin-right: 10px;
+}
+.card__features:before {
+    content: "";
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-image: url(../../img/meal.png);
+    margin-right: 10px;
+}
+
+.card__text {
+    margin-bottom: 24.5px;
+}

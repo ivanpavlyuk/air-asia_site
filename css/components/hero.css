@@ -1,0 +1,12 @@
+.hero {
+    font-size: 18px;
+}
+.hero__title {
+    font-size: 72px;
+    max-width: 511px;
+    margin-bottom: 27px;
+}
+
+.hero__text {
+    margin-bottom: 33.5px;
+}

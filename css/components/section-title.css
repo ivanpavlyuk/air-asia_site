@@ -1,0 +1,14 @@
+.section-title {
+    font-size: 36px;
+    line-height: 49.03px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.section-title_icon_flame::after {
+    content: "";
+    display: inline-block;
+    width: 21px;
+    height: 28px;
+    background-image: url(../../img/flame.png);
+}

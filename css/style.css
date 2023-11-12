@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 
 @import url(settings/base.css);
+@import url(settings/adaptive.css);
+
 @import url(components/about.css);
+@import url(components/button.css);
+@import url(components/card.css);
+@import url(components/contacts.css);
 @import url(components/footer.css);
 @import url(components/header.css);
 @import url(components/hero.css);
@@ -12,14 +17,9 @@
 @import url(components/news.css);
 @import url(components/paginator.css);
 @import url(components/phone.css);
+@import url(components/promo.css);
 @import url(components/schedule.css);
+@import url(components/section-title.css);
 @import url(components/socials.css);
 @import url(components/tel.css);
-@import url(components/button.css);
-@import url(components/section-title.css);
-@import url(components/card.css);
-@import url(components/promo.css);
-@import url(settings/adaptive.css);
 @import url(components/travels.css);
-@import url(components/menu.css);
-@import url(components/contacts.css);

@@ -1,0 +1,10 @@
+.contacts__phone {
+    font-size: 26px;
+    font-style: normal;
+}
+
+.contacts__details {
+    color: #9a9a9a;
+    font-size: 11px;
+    line-height: 20px;
+}

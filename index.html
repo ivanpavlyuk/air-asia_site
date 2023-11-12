@@ -10,44 +10,48 @@
         <div class="wrapper">
             <header class="header">
                 <div class="container header__container">
-                    <div class="header__nav">
-                        <nav class="nav">
-                            <div class="nav__logo">
-                                <div class="logo">
-                                    <a class="logo__link" href="#"
-                                        ><img
-                                            class="logo__img"
-                                            src="img/logo.svg"
-                                            alt="Air Asia"
-                                    /></a>
-                                </div>
-                            </div>
-                            <menu class="nav__menu">
-                                <li class="nav__item">
-                                    <a class="nav__link" href="#">Главная</a>
-                                </li>
-                                <li class="nav__item">
-                                    <a class="nav__link" href="#">Услуги</a>
-                                </li>
-                                <li class="nav__item">
-                                    <a class="nav__link" href="#">Отзывы</a>
-                                </li>
-                            </menu>
-                        </nav>
+                    <div class="header__logo">
+                        <div class="logo">
+                            <a class="logo__link" href="#"
+                                ><img
+                                    class="logo__img"
+                                    src="img/logo.svg"
+                                    alt="Air Asia"
+                            /></a>
+                        </div>
+                    </div>
+                    <div class="header__menu">
+                        <menu class="menu">
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Главная</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Услуги</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Отзывы</a>
+                            </li>
+                        </menu>
                     </div>
                     <div class="header__contacts">
-                        <address class="phone">
-                            <a class="phone__number" href="tel:+78007003030"
+                        <div class="contacts contacts_shedule">
+                            <a class="contacts__phone" href="tel:+78007003030"
                                 >8 800 700 30 30</a
                             >
-                        </address>
-                        <div class="schedule">
-                            <p class="schedule__title">График работы</p>
-                            <div class="schedule__hours">
-                                <p class="schedule__work">
-                                    <b>пн-вс: 09:00 - 20:00</b>
-                                </p>
-                                <p class="schedule__break">Обед: 14:00-14:30</p>
+                            <div class="contacts__details">
+                                <div class="schedule">
+                                    <h3 class="schedule__title">
+                                        <a class="schedule__link" onclick="showDetails">График работы</a>
+                                    </h3>
+                                    <ul class="schedule__list">
+                                        <li class="schedule__item">
+                                            <b>пн-вс: 09:00 - 20:00</b>
+                                        </li>
+                                        <li class="schedule__item">
+                                            Обед: 14:00-14:30
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -55,234 +59,221 @@
             </header>
             <main class="main">
                 <div class="container main__container">
-                    <section class="main__hero">
-                        <div class="hero">
-                            <h1 class="hero__title">Авторские туры по Азии</h1>
-                            <p class="hero__text">Открой для себя Азию</p>
-                            <a class="hero__link button button_bg_red" href="#"
-                                >Подробнее</a
-                            >
-                        </div>
+                    <section class="hero">
+                        <h1 class="hero__title">Авторские туры по Азии</h1>
+                        <p class="hero__text">Открой для себя Азию</p>
+                        <a class="hero__link button button_bg_red" href="#"
+                            >Подробнее</a
+                        >
                     </section>
 
-                    <section class="main__travels">
-                        <div class="travels">
-                            <h2
-                                class="travels__title section-title section-title_icon_flame"
-                            >
-                                Горящие туры
-                            </h2>
-                            <ul class="travels__list">
-                                <li class="travels__item">
-                                    <div class="card">
-                                        <img
-                                            class="card__img"
-                                            src="img/tai.jpg"
-                                            alt="Мужчина на фоне тайских гор, покрытых зеленью"
-                                        />
-                                        <div class="card__inner">
-                                            <h3 class="card__title">Таиланд</h3>
-                                            <p class="card__info">
-                                                <span class="card__duration"
-                                                    >7- 12 ночей</span
-                                                >
-                                                <span class="card__features"
-                                                    >Завтраки</span
-                                                >
-                                            </p>
-                                            <p class="card__text">
-                                                Равным образом постоянное
-                                                обеспечение нашей деятельности
-                                                позволяет оценить значение
-                                                систем массового участия.
-                                            </p>
-                                            <a
-                                                class="card__link button button_color_red"
-                                                href="#"
-                                                >Смотреть</a
+                    <section class="travels">
+                        <h2
+                            class="travels__title section-title section-title_icon_flame"
+                        >
+                            Горящие туры
+                        </h2>
+                        <ul class="travels__list">
+                            <li class="travels__item">
+                                <div class="card">
+                                    <img
+                                        class="card__img"
+                                        src="img/tai.jpg"
+                                        alt="Мужчина на фоне тайских гор, покрытых зеленью"
+                                    />
+                                    <div class="card__inner">
+                                        <h3 class="card__title">Таиланд</h3>
+                                        <ul class="card__list">
+                                            <li class="card__item"
+                                                >7- 12 ночей</li
                                             >
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="travels__item">
-                                    <div class="card">
-                                        <img
-                                            class="card__img"
-                                            src="img/bali.jpg"
-                                            alt="Девушка в бассейне отеля на фоне океана"
-                                        />
-                                        <div class="card__inner">
-                                            <h3 class="card__title">Бали</h3>
-                                            <p class="card__info">
-                                                <span class="card__duration"
-                                                    >7- 12 ночей</span
-                                                >
-                                                <span class="card__features"
-                                                    >Завтраки</span
-                                                >
-                                            </p>
-                                            <p class="card__text">
-                                                Равным образом постоянное
-                                                обеспечение нашей деятельности
-                                                позволяет оценить значение
-                                                систем массового участия.
-                                            </p>
-                                            <a
-                                                class="card__link button button_bg_red"
-                                                href="#"
-                                                >Смотреть</a
+                                            <li class="card__item"
+                                                >Завтраки</li
                                             >
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="travels__item">
-                                    <div class="card">
-                                        <img
-                                            class="card__img"
-                                            src="img/indo.jpg"
-                                            alt="Мужчина и женщина у бунгала любуются на океан"
-                                        />
-                                        <div class="card__inner">
-                                            <h3 class="card__title">Таиланд</h3>
-                                            <p class="card__info">
-                                                <span class="card__duration"
-                                                    >7- 12 ночей</span
-                                                >
-                                                <span class="card__features"
-                                                    >Завтраки</span
-                                                >
-                                            </p>
-                                            <p class="card__text">
-                                                Равным образом постоянное
-                                                обеспечение нашей деятельности
-                                                позволяет оценить значение
-                                                систем массового участия.
-                                            </p>
-                                            <a
-                                                class="card__link button button_color_red"
-                                                href="#"
-                                                >Смотреть</a
-                                            >
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
-
-                    <section class="main__news">
-                        <div class="news">
-                            <h2 class="news__title section-title">
-                                Новости и акции
-                            </h2>
-
-                            <ul class="news__list">
-                                <li class="news__item">
-                                    <div class="promo">
-                                        <time
-                                            class="promo__date"
-                                            datetime="2019-12"
-                                            >Декабрь 2019</time
-                                        >
-                                        <h3 class="promo__title">
-                                            Дешевые путевки на Новый Год!
-                                        </h3>
-                                        <p class="promo__text">
-                                            Проведи новый год в Тайланде
+                                        </ul>
+                                        <p class="card__text">
+                                            Равным образом постоянное
+                                            обеспечение нашей деятельности
+                                            позволяет оценить значение систем
+                                            массового участия.
                                         </p>
-                                    </div>
-                                </li>
-                                <li class="news__item">
-                                    <div class="promo">
-                                        <time
-                                            class="promo__date"
-                                            datetime="2019-12"
-                                            >Декабрь 2019</time
+                                        <a
+                                            class="card__link button button_color_red"
+                                            href="#"
+                                            >Смотреть</a
                                         >
-                                        <h3 class="promo__title">
-                                            Акция для серфенгистов!
-                                        </h3>
-                                        <p class="promo__text">
-                                            В сезон больших волн скидка на
-                                            путевку в Тайланд на остров
-                                            серфенгистов. Удачного пути!
-                                        </p>
                                     </div>
-                                </li>
-                            </ul>
-
-                            <div class="news__paginator">
-                                <div class="paginator">
-                                    <p class="paginator__counter">
-                                        Страница 1 из 7
-                                    </p>
-                                    <ol class="paginator__list">
-                                        <li class="paginator__item">
-                                            <a class="paginator__link" href="#"
-                                                >1</a
-                                            >
-                                        </li>
-                                        <li class="paginator__item">
-                                            <a class="paginator__link" href="#"
-                                                >2</a
-                                            >
-                                        </li>
-                                        <li class="paginator__item">
-                                            <a class="paginator__link" href="#"
-                                                >3</a
-                                            >
-                                        </li>
-                                        <li class="paginator__item">
-                                            <a class="paginator__link" href="#"
-                                                >4</a
-                                            >
-                                        </li>
-                                        <li class="paginator__item">
-                                            <a class="paginator__link" href="#"
-                                                >5</a
-                                            >
-                                        </li>
-                                        <li class="paginator__item">
-                                            <a class="paginator__link" href="#"
-                                                >6</a
-                                            >
-                                        </li>
-                                        <li class="paginator__item">
-                                            <a class="paginator__link" href="#"
-                                                >7</a
-                                            >
-                                        </li>
-                                    </ol>
                                 </div>
+                            </li>
+                            <li class="travels__item">
+                                <div class="card">
+                                    <img
+                                        class="card__img"
+                                        src="img/bali.jpg"
+                                        alt="Девушка в бассейне отеля на фоне океана"
+                                    />
+                                    <div class="card__inner">
+                                        <h3 class="card__title">Бали</h3>
+                                        <ul class="card__list">
+                                            <li class="card__item"
+                                                >7- 12 ночей</li
+                                            >
+                                            <li class="card__item"
+                                                >Завтраки</li
+                                            >
+                                        </ul>
+                                        <p class="card__text">
+                                            Равным образом постоянное
+                                            обеспечение нашей деятельности
+                                            позволяет оценить значение систем
+                                            массового участия.
+                                        </p>
+                                        <a
+                                            class="card__link button button_bg_red"
+                                            href="#"
+                                            >Смотреть</a
+                                        >
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="travels__item">
+                                <div class="card">
+                                    <img
+                                        class="card__img"
+                                        src="img/indo.jpg"
+                                        alt="Мужчина и женщина у бунгала любуются на океан"
+                                    />
+                                    <div class="card__inner">
+                                        <h3 class="card__title">Таиланд</h3>
+                                        <p class="card__info">
+                                            <span class="card__duration"
+                                                >7- 12 ночей</span
+                                            >
+                                            <span class="card__features"
+                                                >Завтраки</span
+                                            >
+                                        </p>
+                                        <p class="card__text">
+                                            Равным образом постоянное
+                                            обеспечение нашей деятельности
+                                            позволяет оценить значение систем
+                                            массового участия.
+                                        </p>
+                                        <a
+                                            class="card__link button button_color_red"
+                                            href="#"
+                                            >Смотреть</a
+                                        >
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="news">
+                        <h2 class="news__title section-title">
+                            Новости и акции
+                        </h2>
+
+                        <ul class="news__list">
+                            <li class="news__item">
+                                <div class="promo">
+                                    <time class="promo__date" datetime="2019-12"
+                                        >Декабрь 2019</time
+                                    >
+                                    <h3 class="promo__title">
+                                        Дешевые путевки на Новый Год!
+                                    </h3>
+                                    <p class="promo__text">
+                                        Проведи новый год в Тайланде
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="news__item">
+                                <div class="promo">
+                                    <time class="promo__date" datetime="2019-12"
+                                        >Декабрь 2019</time
+                                    >
+                                    <h3 class="promo__title">
+                                        Акция для серфенгистов!
+                                    </h3>
+                                    <p class="promo__text">
+                                        В сезон больших волн скидка на путевку в
+                                        Тайланд на остров серфенгистов. Удачного
+                                        пути!
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="news__paginator">
+                            <div class="paginator">
+                                <span class="paginator__counter">
+                                    Страница 1 из 7
+                                </span>
+                                <ol class="paginator__list">
+                                    <li class="paginator__item paginator__item_active">
+                                        <a class="paginator__link" href="#"
+                                            >1</a
+                                        >
+                                    </li>
+                                    <li class="paginator__item">
+                                        <a class="paginator__link" href="#"
+                                            >2</a
+                                        >
+                                    </li>
+                                    <li class="paginator__item">
+                                        <a class="paginator__link" href="#"
+                                            >3</a
+                                        >
+                                    </li>
+                                    <li class="paginator__item">
+                                        <a class="paginator__link" href="#"
+                                            >4</a
+                                        >
+                                    </li>
+                                    <li class="paginator__item">
+                                        <a class="paginator__link" href="#"
+                                            >5</a
+                                        >
+                                    </li>
+                                    <li class="paginator__item">
+                                        <a class="paginator__link" href="#"
+                                            >6</a
+                                        >
+                                    </li>
+                                    <li class="paginator__item">
+                                        <a class="paginator__link" href="#"
+                                            >7</a
+                                        >
+                                    </li>
+                                </ol>
                             </div>
                         </div>
                     </section>
 
-                    <section class="main__info">
-                        <div class="info">
-                            <div class="info__img"></div>
-                            <div class="info__about">
-                                <div class="about">
-                                    <h2
-                                        class="about__title section-title section-title_color_black"
-                                    >
-                                        О нас
-                                    </h2>
-                                    <p class="about__text">
-                                        Сайт рыбатекст поможет дизайнеру,
-                                        верстальщику, вебмастеру сгенерировать
-                                        несколько абзацев более менее
-                                        осмысленного текста рыбы на русском
-                                        языке, а начинающему оратору отточить
-                                        навык публичных выступлений в домашних
-                                        условиях.
-                                    </p>
-                                    <a
-                                        class="about__link button button_bg_red"
-                                        href="#"
-                                        >Подробнее</a
-                                    >
-                                </div>
+                    <section class="info">
+                        <div class="info__img"></div>
+                        <div class="info__about">
+                            <div class="about">
+                                <h2
+                                    class="about__title section-title section-title_color_black"
+                                >
+                                    О нас
+                                </h2>
+                                <p class="about__text">
+                                    Сайт рыбатекст поможет дизайнеру,
+                                    верстальщику, вебмастеру сгенерировать
+                                    несколько абзацев более менее осмысленного
+                                    текста рыбы на русском языке, а начинающему
+                                    оратору отточить навык публичных выступлений
+                                    в домашних условиях.
+                                </p>
+                                <a
+                                    class="about__link button button_bg_red"
+                                    href="#"
+                                    >Подробнее</a
+                                >
                             </div>
                         </div>
                     </section>
@@ -290,30 +281,28 @@
             </main>
             <footer class="footer">
                 <div class="container footer__container">
-                    <div class="footer__nav">
-                        <nav class="nav">
-                            <div class="nav__logo">
-                                <div class="logo">
-                                    <a class="logo__link" href="#"
-                                        ><img
-                                            class="logo__img"
-                                            src="img/logo.svg"
-                                            alt="Air Asia"
-                                    /></a>
-                                </div>
-                            </div>
-                            <menu class="nav__menu">
-                                <li class="nav__item">
-                                    <a class="nav__link" href="#">Главная</a>
-                                </li>
-                                <li class="nav__item">
-                                    <a class="nav__link" href="#">Услуги</a>
-                                </li>
-                                <li class="nav__item">
-                                    <a class="nav__link" href="#">Отзывы</a>
-                                </li>
-                            </menu>
-                        </nav>
+                    <div class="footer__logo">
+                        <div class="logo">
+                            <a class="logo__link" href="#"
+                                ><img
+                                    class="logo__img"
+                                    src="img/logo.svg"
+                                    alt="Air Asia"
+                            /></a>
+                        </div>
+                    </div>
+                    <div class="footer__menu">
+                        <menu class="menu">
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Главная</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Услуги</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Отзывы</a>
+                            </li>
+                        </menu>
                     </div>
                     <div class="footer__socials">
                         <ul class="socials">
@@ -352,19 +341,12 @@
                         </ul>
                     </div>
 
-                    <div class="footer__tel">
-                        <div class="tel">
-                            <p class="tel__text">Бесплатный звонок по России</p>
-                            <div class="tel__phone">
-                                <address class="phone">
-                                    <a
-                                        class="phone__number"
-                                        href="tel:+78007003030"
-                                        >8 800 700 30 30</a
-                                    >
-                                </address>
-                            </div>
-                        </div>
+                    <div class="footer__contacts">
+                        <div class="contacts">
+                            <p class="contacts__details">Бесплатный звонок по России</p>
+                            <a class="contacts__phone" href="tel:+78007003030"
+                                >8 800 700 30 30</a
+                            >
                     </div>
                 </div>
             </footer>

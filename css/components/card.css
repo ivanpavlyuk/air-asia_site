@@ -24,19 +24,19 @@
     margin-bottom: 21px;
     color: #000;
 }
-.card__info {
+.card__list {
     display: flex;
     justify-content: flex-start;
     font-size: 16px;
     line-height: 21px;
     margin-bottom: 23.5px;
 }
-.card__duration {
+.card__item:first-of-type {
     margin-right: 28px;
     display: flex;
     align-items: center;
 }
-.card__duration:before {
+.card__item:first-of-type:before {
     content: "";
     display: inline-block;
     width: 26px;
@@ -45,12 +45,12 @@
     margin-right: 10px;
 }
 
-.card__features {
+.card__item:nth-of-type(2) {
     display: flex;
     align-items: center;
 }
 
-.card__features:before {
+.card__item:nth-of-type(2):before {
     content: "";
     display: inline-block;
     width: 26px;

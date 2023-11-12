@@ -1,6 +1,6 @@
 .about {
     max-width: 785px;
-    height: 455px;
+    min-height: 455px;
     border-radius: 5px;
     background-image: url(../../img/lake.jpg);
     background-size: contain;

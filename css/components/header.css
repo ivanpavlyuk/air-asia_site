@@ -2,8 +2,13 @@
     display: flex;
     flex-wrap: wrap;
     padding-top: 29px;
+    min-height: 196px;
 }
 
 .header__contacts {
     margin-left: auto;
+}
+
+.header__logo {
+    margin-right: 79px;
 }

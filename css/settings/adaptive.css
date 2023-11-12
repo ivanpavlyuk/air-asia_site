@@ -12,8 +12,7 @@
 
 @media (max-width: 1180px) {
     .info {
-        height: 552px;
-        position: static;
+        position: initial;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -21,6 +20,11 @@
         gap: 20px;
     }
     .info__about {
-        position: static;
+        position: initial;
+        z-index: initial;
+    }
+    .about {
+        background-position: bottom right;
+        background-size: cover;
     }
 }

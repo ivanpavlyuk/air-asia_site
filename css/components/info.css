@@ -1,5 +1,5 @@
 .info {
-    height: 552px;
+    min-height: 552px;
     position: relative;
 }
 .info__img {

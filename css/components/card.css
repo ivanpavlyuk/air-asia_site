@@ -1,62 +1,67 @@
 .card {
-    width: 362px;
-    height: 449px;
-    display: flex;
-    flex-direction: column;
-    background-color: #fff;
+    max-width: 362px;
+    min-height: 449px;
+    display: block;
+    background-color: transparent;
     color: #303030;
     border-radius: 5px;
+    font-size: 14px;
+    line-height: 1.5em;
 }
 
 .card__img {
     display: block;
-    border-radius: 5px;
+    border-radius: 5px 5px 0 0;
 }
 
 .card__inner {
-    padding: 33px 16px 26px 24px;
+    border-radius: 0 0 5px 5px;
+    padding: 34px 16px 26px 22px;
+    background-color: #fff;
 }
 
 .card__title {
     font-size: 24px;
-    line-height: 32.68px;
+    line-height: 1.34em;
+    text-align: left;
     font-weight: 700;
     margin-bottom: 21px;
     color: #000;
 }
 .card__list {
-    display: flex;
-    justify-content: flex-start;
     font-size: 16px;
-    line-height: 21px;
+    line-height: 1.37em;
     margin-bottom: 23.5px;
 }
 .card__item:first-of-type {
-    margin-right: 28px;
-    display: flex;
-    align-items: center;
+    margin-right: 25px;
+}
+.card__item {
+    display: inline-block;
+    vertical-align: sub;
 }
 .card__item:first-of-type:before {
     content: "";
     display: inline-block;
+    vertical-align: bottom;
     width: 26px;
     height: 26px;
     background-image: url(../../img/calendar.png);
+    margin-left: 6px;
     margin-right: 10px;
 }
 
 .card__item:nth-of-type(2) {
-    display: flex;
-    align-items: center;
 }
 
 .card__item:nth-of-type(2):before {
     content: "";
     display: inline-block;
-    width: 26px;
+    vertical-align: bottom;
+    width: 36px;
     height: 26px;
     background-image: url(../../img/meal.png);
-    margin-right: 10px;
+    margin-right: 9px;
 }
 
 .card__text {

@@ -1,20 +1,22 @@
 .about {
     max-width: 785px;
-    min-height: 455px;
+    height: 455px;
     border-radius: 5px;
     background-image: url(../../img/lake.jpg);
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
     padding: 70px 81px;
 }
 
 .about__title {
     margin-bottom: 37px;
+    font-size: 36px;
+    line-height: 1.36em;
 }
 .about__text {
+    max-width: 85%;
     font-size: 16px;
-    line-height: 27px;
+    line-height: 1.7em;
     margin-bottom: 43px;
-}
-.about__link {
+    color: #060606;
 }

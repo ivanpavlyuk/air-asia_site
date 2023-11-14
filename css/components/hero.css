@@ -1,12 +1,15 @@
 .hero {
     font-size: 18px;
+    line-height: 1.1em;
 }
 .hero__title {
+    display: inline-block;
     font-size: 72px;
     max-width: 511px;
-    margin-bottom: 27px;
+    margin-bottom: 29px;
+    line-height: 1.37em;
 }
 
 .hero__text {
-    margin-bottom: 33.5px;
+    margin-bottom: 32.5px;
 }

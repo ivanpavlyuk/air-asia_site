@@ -1,11 +1,32 @@
 .news__list {
-    display: flex;
-    gap: 25px;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 57.5px;
+    max-width: 1139px;
+    margin-bottom: 54px;
+    font-size: 0;
+    line-height: 0;
 }
 
 .news__title {
     margin-bottom: 51px;
+}
+
+.news__item {
+    display: inline-block;
+    max-width: 557px;
+    min-height: 394px;
+}
+.news__item:first-of-type {
+    margin-right: 25px;
+    vertical-align: bottom;
+}
+
+.news__item:nth-of-type(2) .promo__text {
+    line-height: 1.5em;
+}
+
+.news__item:nth-of-type(2) .promo__title {
+    margin-bottom: -2px;
+}
+
+.news__item:first-of-type .promo__title {
+    margin-bottom: 4px;
 }

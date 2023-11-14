@@ -1,12 +1,9 @@
 .promo {
-    max-width: 557px;
+    width: 557px;
     min-height: 394px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     background-size: contain;
     border-radius: 5px;
-    padding: 47.5px 32px;
+    padding: 252.5px 29px 26px;
 }
 
 .news__item:nth-child(1) .promo {
@@ -18,16 +15,17 @@
 }
 
 .promo__date {
-    line-height: 21px;
+    display: block;
+    font-size: 14px;
+    line-height: 1.5em;
     margin-bottom: 12.5px;
 }
 .promo__title {
     font-size: 24px;
     font-weight: 700;
-    line-height: 36px;
-    margin-bottom: 3.5px;
+    line-height: 1.5em;
 }
 .promo__text {
     font-size: 16px;
-    line-height: 21px;
+    line-height: 1.3em;
 }

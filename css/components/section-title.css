@@ -1,6 +1,6 @@
 .section-title {
     font-size: 36px;
-    line-height: 49.03px;
+    line-height: 1.36em;
     font-weight: 700;
     color: #fff;
 }
@@ -10,6 +10,8 @@
     display: inline-block;
     width: 21px;
     height: 28px;
+    margin-left: 3px;
+    vertical-align: middle;
     background-image: url(../../img/flame.png);
 }
 

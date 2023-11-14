@@ -8,8 +8,8 @@
 .main__container:after {
     content: "";
     display: block;
-    height: 4px;
+    height: 1px;
     background-color: #fff;
     opacity: 10%;
-    margin-top: 53px;
+    margin-top: 55px;
 }

@@ -1,5 +1,6 @@
-.menu {
-    display: flex;
-    line-height: 19.07px;
-    gap: 20px;
+.menu__item {
+    display: inline-block;
+    vertical-align: super;
+    text-align: left;
+    margin-right: 51px;
 }

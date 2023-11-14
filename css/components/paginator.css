@@ -6,8 +6,8 @@
 }
 .paginator__counter {
     display: inline-block;
-    margin-left: 10px;
-    margin-right: 21px;
+    margin-right: 24px;
+    margin-left: 5px;
     line-height: 20px;
 }
 .paginator__list {
@@ -16,10 +16,9 @@
 .paginator__item {
     display: inline-block;
     text-align: center;
-    padding: 5px 11px;
+    padding: 5px 10.22px;
     font-weight: 700;
     line-height: 21px;
-    margin-right: -1px;
 }
 
 .paginator__item:hover {

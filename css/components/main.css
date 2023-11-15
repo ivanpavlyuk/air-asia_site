@@ -1,7 +1,7 @@
-.main__container {
+.main {
     background-image: url(../../img/second-bg.jpg);
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: 0% 99%;
     background-size: contain;
 }
 

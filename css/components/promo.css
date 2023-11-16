@@ -3,7 +3,7 @@
     min-height: 394px;
     background-size: contain;
     border-radius: 5px;
-    padding: 252.5px 29px 26px;
+    padding: 0 30px 26px;
 }
 
 .news__item:nth-child(1) .promo {
@@ -12,6 +12,17 @@
 
 .news__item:nth-child(2) .promo {
     background-image: url(../../img/surfer.jpg);
+}
+
+.promo__inner {
+    position: relative;
+    min-height: 368px;
+}
+
+.promo__info {
+    min-height: 113px;
+    position: absolute;
+    bottom: 0;
 }
 
 .promo__date {

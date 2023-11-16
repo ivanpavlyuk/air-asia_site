@@ -6,6 +6,7 @@
 .contacts__details {
     color: #9a9a9a;
     font-size: 11px;
+    position: relative;
 }
 
 .contacts__details_pos_bottom {

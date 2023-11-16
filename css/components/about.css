@@ -1,11 +1,12 @@
 .about {
-    max-width: 785px;
-    height: 455px;
+    width: 785px;
+    min-height: 455px;
     border-radius: 5px;
     background-image: url(../../img/lake.jpg);
-    background-size: 100%;
+    background-size: cover;
+    background-position: right;
     background-repeat: no-repeat;
-    padding: 70px 81px;
+    padding: 70px 81px 66px;
 }
 
 .about__title {

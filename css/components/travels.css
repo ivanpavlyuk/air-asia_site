@@ -1,25 +1,22 @@
 .travels {
-    max-width: 1140px;
+  max-width: 1140px;
+  padding-bottom: 127px;
 }
 
 .travels__title {
-    margin-bottom: 51px;
+  margin-bottom: 51px;
+  margin-left: 3px;
 }
 
 .travels__list {
-    font-size: 0px;
-    line-height: 0px;
+  display: flex;
+  margin: 0 auto;
+  gap: 27px;
+  flex-wrap: wrap;
 }
 
 .travels__item {
-    display: inline-block;
-    max-width: 362px;
-}
-
-.travels__item:not(:last-of-type) {
-    margin-right: 27px;
-}
-
-.travels__item:last-of-type {
-    vertical-align: bottom;
+  min-height: 449px;
+  width: 362px;
+  border-radius: 5px;
 }

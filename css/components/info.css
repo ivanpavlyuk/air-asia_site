@@ -1,16 +1,16 @@
 .info {
-    max-width: 1139px;
-    min-height: 552px;
+  max-width: 1139px;
+  padding-bottom: 53px;
 }
 .info__img {
-    width: 490px;
-    height: 505px;
-    border-radius: 5px;
-    background-image: url(../../img/moto.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+  width: 490px;
+  height: 505px;
+  border-radius: 5px;
+  background-image: url(../../img/moto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .info__about {
-    margin-top: -407px;
-    margin-left: 352px;
+  margin-top: -409px;
+  margin-left: 354px;
 }

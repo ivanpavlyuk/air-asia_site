@@ -1,15 +1,17 @@
 .hero {
-    font-size: 18px;
-    line-height: 1.1em;
-}
-.hero__title {
-    display: inline-block;
-    font-size: 72px;
-    max-width: 511px;
-    margin-bottom: 29px;
-    line-height: 1.38em;
+  margin-left: 1px;
+  min-height: 579px;
 }
 
-.hero__text {
-    margin-bottom: 32.5px;
+.hero h1 {
+  font-size: 72px;
+  max-width: 510px;
+  margin-bottom: 26px;
+  line-height: 1.37em;
+}
+
+.hero p {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 30px;
 }

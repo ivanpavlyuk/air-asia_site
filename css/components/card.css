@@ -1,69 +1,78 @@
 .card {
-    max-width: 362px;
-    min-height: 449px;
-    display: block;
-    background-color: transparent;
-    color: #303030;
-    border-radius: 5px;
-    font-size: 14px;
-    line-height: 1.5em;
+  display: flex;
+  flex-direction: column;
+  color: #303030;
+  font-size: 14px;
+  line-height: 1.5em;
+  height: 100%;
 }
 
-.card__img {
-    display: block;
-    border-radius: 5px 5px 0 0;
+.card img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
 }
 
 .card__inner {
-    border-radius: 0 0 5px 5px;
-    padding: 34px 16px 26px 22px;
-    background-color: #fff;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+  flex-grow: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  padding: 33px 16px 26px 22px;
 }
 
-.card__title {
-    font-size: 24px;
-    line-height: 1.34em;
-    text-align: left;
-    font-weight: 700;
-    margin-bottom: 21px;
-    color: #000;
+.card h3 {
+  font-size: 24px;
+  line-height: 1.34em;
+  text-align: left;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #000;
 }
-.card__list {
-    font-size: 16px;
-    line-height: 1.37em;
-    margin-bottom: 23.5px;
+.card ul {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+  line-height: 1.37em;
+  margin-bottom: 23.5px;
 }
-.card__item:first-of-type {
-    margin-right: 25px;
+.card li:first-of-type {
+  margin-right: 29px;
 }
-.card__item {
-    display: inline-block;
-    vertical-align: sub;
+.card li {
+  display: flex;
 }
-.card__item:first-of-type:before {
-    content: "";
-    display: inline-block;
-    vertical-align: bottom;
-    width: 26px;
-    height: 26px;
-    background-image: url(../../img/calendar.png);
-    margin-left: 6px;
-    margin-right: 10px;
-}
-
-.card__item:nth-of-type(2) {
+.card li:first-of-type:before {
+  content: "";
+  width: 26px;
+  height: 26px;
+  background-image: url(../../img/calendar.png);
+  margin-left: 6px;
+  margin-right: 10px;
+  margin-top: -3px;
 }
 
-.card__item:nth-of-type(2):before {
-    content: "";
-    display: inline-block;
-    vertical-align: bottom;
-    width: 36px;
-    height: 26px;
-    background-image: url(../../img/meal.png);
-    margin-right: 9px;
+.card li:nth-of-type(2) {
 }
 
-.card__text {
-    margin-bottom: 24.5px;
+.card li:nth-of-type(2):before {
+  content: "";
+  width: 36px;
+  height: 26px;
+  background-image: url(../../img/meal.png);
+  margin-right: 9px;
+  margin-top: -3px;
+}
+
+.card p {
+  margin-bottom: 21px;
+  flex-grow: 5;
+}
+
+.card__link {
+  margin-left: 2px;
 }

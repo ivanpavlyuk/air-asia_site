@@ -1,15 +1,8 @@
-.main {
-    background-image: url(../../img/second-bg.jpg);
-    background-repeat: no-repeat;
-    background-position: 0% 99%;
-    background-size: contain;
-}
-
-.main__container:after {
-    content: "";
-    display: block;
-    height: 1px;
-    background-color: #fff;
-    opacity: 10%;
-    margin-top: 55px;
+.main__inner:after {
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 3px;
+  background-color: #fff;
+  opacity: 10%;
 }

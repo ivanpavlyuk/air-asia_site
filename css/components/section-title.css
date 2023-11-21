@@ -1,20 +1,22 @@
 .section-title {
-    font-size: 36px;
-    line-height: 1.36em;
-    font-weight: 700;
-    color: #fff;
+  display: flex;
+  font-size: 36px;
+  line-height: 1.36em;
+  font-weight: 700;
+  color: #fff;
 }
 
 .section-title_icon_flame::after {
-    content: "";
-    display: inline-block;
-    width: 21px;
-    height: 28px;
-    margin-left: 3px;
-    vertical-align: middle;
-    background-image: url(../../img/flame.png);
+  content: "";
+  align-self: center;
+  width: 21px;
+  height: 28px;
+  margin-top: 5px;
+  margin-left: 12px;
+  vertical-align: middle;
+  background-image: url(../../img/flame.png);
 }
 
 .section-title_color_black {
-    color: #000;
+  color: #000;
 }

@@ -1,9 +1,15 @@
-.menu__item {
-    display: inline-block;
-    vertical-align: super;
-    text-align: left;
-    margin-right: 51px;
+.menu {
+  display: flex;
+}
+
+.menu__item:not(.menu__item:last-child) {
+  margin-right: 54px;
 }
 .menu__item:hover .menu__link {
-    color: #da0100;
+  color: #da0100;
+}
+
+.menu__link {
+  font-size: 14px;
+  line-height: 1.36;
 }

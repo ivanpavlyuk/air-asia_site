@@ -1,25 +1,20 @@
 .header__container {
-    max-width: 1141px;
-    padding-top: 29px;
-    padding-bottom: 118px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  max-width: 1141px;
+  padding-top: 28px;
+  padding-bottom: 118px;
 }
 
 .header__menu {
-    display: inline-block;
-    padding-bottom: 1px;
-    margin-right: 467px;
-    vertical-align: text-bottom;
+  margin-right: auto;
 }
 
 .header__contacts {
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    bottom: 1px;
 }
 
 .header__logo {
-    margin-right: 76px;
-    display: inline-block;
-    vertical-align: baseline;
+  margin-bottom: 10px;
+  margin-right: 80px;
 }

@@ -1,17 +1,21 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+
 .contacts__phone {
-    font-size: 26px;
-    line-height: 1.36em;
+  font-size: 26px;
+  line-height: 1.36em;
 }
 
 .contacts__details {
-    color: #9a9a9a;
-    font-size: 11px;
-    position: relative;
+  color: #9a9a9a;
+  font-size: 11px;
 }
 
 .contacts__details_pos_bottom {
-    max-width: 160px;
-    margin-top: -9px;
-    margin-right: 2px;
-    margin-left: auto;
+  position: relative;
+  margin-right: 2px;
+  margin-top: -9px;
+  text-align: right;
 }

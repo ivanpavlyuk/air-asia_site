@@ -1,15 +1,14 @@
 .paginator {
   display: flex;
-  margin: 0 auto;
   font-size: 16px;
   font-weight: 400;
+  flex-basis: 375px;
   justify-content: center;
-  align-items: center;
+  gap: 27px;
 }
 .paginator__counter {
-  margin-bottom: 3px;
-  margin-left: 7px;
-  margin-right: 27px;
+  align-self: center;
+  margin-bottom: 5px;
   line-height: 1.25;
 }
 .paginator__list {
@@ -20,22 +19,44 @@
   text-align: center;
   padding: 6px 11px 6px;
   font-weight: 700;
-  line-height: 1.26;
+  line-height: 1.25;
 }
 
-.paginator__item:hover {
+.paginator_color_white .paginator__item:hover {
   background-color: #fff;
   border-radius: 50%;
   cursor: pointer;
 }
 
-.paginator__item_active {
+.paginator_color_white .paginator__item_active {
   background-color: #fff;
   border-radius: 50%;
   cursor: pointer;
 }
 
-.paginator__item_active .paginator__link,
-.paginator__item:hover .paginator__link {
+.paginator_color_white .paginator__item_active .paginator__link,
+.paginator_color_white .paginator__item:hover .paginator__link {
   color: #f5170e;
+}
+
+.paginator_color_black,
+.paginator_color_black .paginator__link {
+  color: #000;
+}
+
+.paginator_color_black .paginator__item:hover {
+  background-color: #f5170e;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.paginator_color_black .paginator__item_active {
+  background-color: #f5170e;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.paginator_color_black .paginator__item_active .paginator__link,
+.paginator_color_black .paginator__item:hover .paginator__link {
+  color: #fff;
 }

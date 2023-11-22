@@ -1,0 +1,13 @@
+.breadcrumps {
+  display: flex;
+  line-height: 1.36;
+}
+.breadcrumps__link {
+  text-decoration: underline;
+}
+.breadcrumps__item:not(.breadcrumps__item:last-of-type)::after {
+  content: "/\A0";
+}
+.breadcrumps__item:last-of-type {
+  font-weight: 700;
+}

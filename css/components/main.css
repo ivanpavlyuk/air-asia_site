@@ -1,4 +1,4 @@
-.main__inner:after {
+.index-wrapper .main__inner:after {
   content: "";
   display: block;
   height: 1px;

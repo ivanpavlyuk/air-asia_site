@@ -30,3 +30,7 @@
 .news__item:nth-of-type(2) .promo__text {
   line-height: 1.5em;
 }
+
+.news__paginator .paginator__counter {
+  margin-left: 5px;
+}

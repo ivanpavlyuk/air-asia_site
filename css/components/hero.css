@@ -4,10 +4,8 @@
 }
 
 .hero h1 {
-  font-size: 72px;
   max-width: 510px;
   margin-bottom: 26px;
-  line-height: 1.37em;
 }
 
 .hero p {

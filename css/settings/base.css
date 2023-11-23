@@ -56,11 +56,6 @@ table {
   background-size: contain, contain;
 }
 
-.container {
-  max-width: 1142px;
-  margin: 0 auto;
-}
-
 .header__inner,
 .main_inner,
 .footer__inner {
@@ -70,12 +65,5 @@ table {
 /*страница  Услуги */
 .services-wrapper {
   background-color: #fff;
-  background-repeat: no-repeat, no-repeat;
-  background-size: 101%;
-  background-position: top;
   letter-spacing: 0px;
-}
-
-.services-wrapper .main__inner {
-  margin-left: 1px;
 }

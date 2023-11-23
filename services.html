@@ -7,53 +7,67 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div
-      class="services-wrapper"
-      style="background-image: url(img/elephant-bg.jpg)"
-    >
-      <header class="header">
+    <div class="services-wrapper">
+      <header class="header" style="background-image: url(img/elephant-bg.jpg)">
         <div class="container">
-          <div class="header__inner header__inner_size_small">
-            <div class="logo header__logo header__logo_size_big">
-              <a class="logo__link" href="#"
-                ><img
-                  class="logo__img"
-                  src="img/logo-size-bigger.svg"
-                  alt="Air Asia"
-              /></a>
-            </div>
-            <div class="header__menu">
-              <menu class="menu">
-                <li class="menu__item">
-                  <a class="menu__link" href="./index.html">Главная</a>
-                </li>
-                <li class="menu__item">
-                  <a class="menu__link" href="#">Услуги</a>
-                </li>
-                <li class="menu__item">
-                  <a class="menu__link" href="#">Отзывы</a>
-                </li>
-              </menu>
-            </div>
-            <div class="header__contacts">
-              <div class="contacts contacts_shedule">
-                <a class="contacts__phone" href="tel:+78007003030"
-                  >8 800 700 30 30</a
-                >
-                <div class="contacts__details contacts__details_pos_bottom">
-                  <div class="schedule">
-                    <h3 class="schedule__title">
-                      <a class="schedule__link">График работы</a>
-                    </h3>
-                    <ul class="schedule__list">
-                      <li class="schedule__item">
-                        <b>пн-вс: 09:00 - 20:00</b>
-                      </li>
-                      <li class="schedule__item">Обед: 14:00-14:30</li>
-                    </ul>
+          <div class="header-container">
+            <div class="header__inner">
+              <div class="logo header__logo header__logo_size_big">
+                <a class="logo__link" href="#"
+                  ><img
+                    class="logo__img"
+                    src="img/logo-size-bigger.svg"
+                    alt="Air Asia"
+                /></a>
+              </div>
+              <div class="header__menu">
+                <menu class="menu">
+                  <li class="menu__item">
+                    <a class="menu__link" href="./index.html">Главная</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link" href="#">Услуги</a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link" href="#">Отзывы</a>
+                  </li>
+                </menu>
+              </div>
+              <div class="header__contacts">
+                <div class="contacts contacts_shedule">
+                  <a class="contacts__phone" href="tel:+78007003030"
+                    >8 800 700 30 30</a
+                  >
+                  <div class="contacts__details contacts__details_pos_bottom">
+                    <div class="schedule">
+                      <h3 class="schedule__title">
+                        <a class="schedule__link">График работы</a>
+                      </h3>
+                      <ul class="schedule__list">
+                        <li class="schedule__item">
+                          <b>пн-вс: 09:00 - 20:00</b>
+                        </li>
+                        <li class="schedule__item">Обед: 14:00-14:30</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="header__inner-title">
+              <h1 class="hero-title">Услуги</h1>
+              <ul class="breadcrumps">
+                <li class="breadcrumps__item">
+                  <a class="breadcrumps__link" href="index.html">Главная</a>
+                </li>
+                <li class="breadcrumps__item">
+                  <a
+                    class="breadcrumps__link breadcrumps__link_active"
+                    href="services.html"
+                    >Услуги</a
+                  >
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -62,97 +76,81 @@
         <div class="main__inner">
           <div class="container">
             <section class="offers">
-              <div class="container">
-                <h1>Услуги</h1>
-                <ul class="breadcrumps">
-                  <li class="breadcrumps__item">
-                    <a class="breadcrumps__link" href="index.html">Главная</a>
-                  </li>
-                  <li class="breadcrumps__item">
-                    <a
-                      class="breadcrumps__link breadcrumps__link_active"
-                      href="services.html"
-                      >Услуги</a
-                    >
-                  </li>
-                </ul>
-                <ul class="offers__list">
-                  <li class="offers__item">
-                    <div class="service">
-                      <div class="service__img-container">
-                        <img
-                          src="img/waterfall.jpg"
-                          alt="Мужчина возле водопада"
-                        />
-                      </div>
-                      <div class="service__info">
-                        <h3>Водопад Янг-бей</h3>
-                        <p>
-                          Сайт рыбатекст поможет дизайнеру, верстальщику,
-                          вебмастеру сгенерировать несколько абзацев более менее
-                          осмысленного текста рыбы на русском языке, а
-                          начинающему оратору отточить навык публичных
-                          выступлений в домашних условиях. При создании
-                          генератора мы использовали небезизвестный
-                          универсальный код речей.
-                        </p>
-                        <a
-                          class="button button_color_red button_size_big"
-                          href="#"
-                          >Подробнее</a
-                        >
-                      </div>
+              <ul class="offers__list">
+                <li class="offers__item">
+                  <div class="service">
+                    <div class="service__img-container">
+                      <img
+                        class="service__img"
+                        src="img/waterfall.jpg"
+                        alt="Мужчина возле водопада"
+                      />
                     </div>
-                  </li>
-                  <li class="offers__item">
-                    <div class="service">
-                      <div class="service__img-container">
-                        <img src="img/monkeys.jpg" alt="Обезьяны в бассейне" />
-                      </div>
-                      <div class="service__info">
-                        <h3>Остров обезьян</h3>
-                        <p>
-                          Сайт рыбатекст поможет дизайнеру, верстальщику,
-                          вебмастеру сгенерировать несколько абзацев более менее
-                          осмысленного текста рыбы на русском языке, а
-                          начинающему оратору отточить навык публичных
-                          выступлений в домашних условиях. При создании
-                          генератора мы использовали небезизвестный
-                          универсальный код речей.
-                        </p>
-                        <a class="button button_bg_red button_size_big" href="#"
-                          >Подробнее</a
-                        >
-                      </div>
+                    <div class="service__info">
+                      <h3 class="service__title">Водопад Янг-бей</h3>
+                      <p class="service__text">
+                        Сайт рыбатекст поможет дизайнеру, верстальщику,
+                        вебмастеру сгенерировать несколько абзацев более менее
+                        осмысленного текста рыбы на русском языке, а начинающему
+                        оратору отточить навык публичных выступлений в домашних
+                        условиях. При создании генератора мы использовали
+                        небезизвестный универсальный код речей.
+                      </p>
+                      <a
+                        class="button button_color_red button_size_big"
+                        href="#"
+                        >Подробнее</a
+                      >
                     </div>
+                  </div>
+                </li>
+                <li class="offers__item">
+                  <div class="service">
+                    <div class="service__img-container">
+                      <img src="img/monkeys.jpg" alt="Обезьяны в бассейне" />
+                    </div>
+                    <div class="service__info">
+                      <h3 class="service__title">Остров обезьян</h3>
+                      <p class="service__text">
+                        Сайт рыбатекст поможет дизайнеру, верстальщику,
+                        вебмастеру сгенерировать несколько абзацев более менее
+                        осмысленного текста рыбы на русском языке, а начинающему
+                        оратору отточить навык публичных выступлений в домашних
+                        условиях. При создании генератора мы использовали
+                        небезизвестный универсальный код речей.
+                      </p>
+                      <a class="button button_bg_red button_size_big" href="#"
+                        >Подробнее</a
+                      >
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="paginator offers__paginator paginator_color_black">
+                <span class="paginator__counter"> Страница 1 из 7 </span>
+                <ol class="paginator__list">
+                  <li class="paginator__item paginator__item_active">
+                    <a class="paginator__link" href="#">1</a>
                   </li>
-                </ul>
-                <div class="paginator offers__paginator paginator_color_black">
-                  <span class="paginator__counter"> Страница 1 из 7 </span>
-                  <ol class="paginator__list">
-                    <li class="paginator__item paginator__item_active">
-                      <a class="paginator__link" href="#">1</a>
-                    </li>
-                    <li class="paginator__item">
-                      <a class="paginator__link" href="#">2</a>
-                    </li>
-                    <li class="paginator__item">
-                      <a class="paginator__link" href="#">3</a>
-                    </li>
-                    <li class="paginator__item">
-                      <a class="paginator__link" href="#">4</a>
-                    </li>
-                    <li class="paginator__item">
-                      <a class="paginator__link" href="#">5</a>
-                    </li>
-                    <li class="paginator__item">
-                      <a class="paginator__link" href="#">6</a>
-                    </li>
-                    <li class="paginator__item">
-                      <a class="paginator__link" href="#">7</a>
-                    </li>
-                  </ol>
-                </div>
+                  <li class="paginator__item">
+                    <a class="paginator__link" href="#">2</a>
+                  </li>
+                  <li class="paginator__item">
+                    <a class="paginator__link" href="#">3</a>
+                  </li>
+                  <li class="paginator__item">
+                    <a class="paginator__link" href="#">4</a>
+                  </li>
+                  <li class="paginator__item">
+                    <a class="paginator__link" href="#">5</a>
+                  </li>
+                  <li class="paginator__item">
+                    <a class="paginator__link" href="#">6</a>
+                  </li>
+                  <li class="paginator__item">
+                    <a class="paginator__link" href="#">7</a>
+                  </li>
+                </ol>
               </div>
             </section>
           </div>
@@ -161,35 +159,67 @@
               <h2>Партнеры</h2>
               <ul class="partners__list">
                 <li class="partners__item">
-                  <a href="#"><img src="img/pobeda.svg" alt="Победа" /></a>
-                </li>
-                <li class="partners__item">
-                  <a href="#"><img src="img/s7.svg" alt="S7 Airlines" /></a>
-                </li>
-                <li class="partners__item">
-                  <a href="#"
-                    ><img src="img/lets-fly.svg" alt="Слетать.ру"
+                  <a class="partners__link" href="#"
+                    ><img
+                      class="partners__img"
+                      src="img/pobeda.svg"
+                      alt="Победа"
                   /></a>
                 </li>
                 <li class="partners__item">
-                  <a href="#"
-                    ><img src="img/lufthansa.svg" alt="Lufthansa"
+                  <a class="partners__link" href="#"
+                    ><img
+                      class="partners__img"
+                      src="img/s7.svg"
+                      alt="S7 Airlines"
                   /></a>
                 </li>
                 <li class="partners__item">
-                  <a href="#"
-                    ><img src="img/airbaltic.svg" alt="airBaltic"
+                  <a class="partners__link" href="#"
+                    ><img
+                      class="partners__img"
+                      src="img/lets-fly.svg"
+                      alt="Слетать.ру"
                   /></a>
                 </li>
                 <li class="partners__item">
-                  <a href="#"><img src="img/pegasus.svg" alt="Pegasus" /></a>
+                  <a class="partners__link" href="#"
+                    ><img
+                      class="partners__img"
+                      src="img/lufthansa.svg"
+                      alt="Lufthansa"
+                  /></a>
                 </li>
                 <li class="partners__item">
-                  <a href="#"><img src="img/ural.svg" alt="UralAirlines" /></a>
+                  <a class="partners__link" href="#"
+                    ><img
+                      class="partners__img"
+                      src="img/airbaltic.svg"
+                      alt="airBaltic"
+                  /></a>
                 </li>
                 <li class="partners__item">
-                  <a href="#"
-                    ><img src="img/pegas.svg" alt="Pegas Touristic"
+                  <a class="partners__link" href="#"
+                    ><img
+                      class="partners__img"
+                      src="img/pegasus.svg"
+                      alt="Pegasus"
+                  /></a>
+                </li>
+                <li class="partners__item">
+                  <a class="partners__link" href="#"
+                    ><img
+                      class="partners__img"
+                      src="img/ural.svg"
+                      alt="UralAirlines"
+                  /></a>
+                </li>
+                <li class="partners__item">
+                  <a class="partners__link" href="#"
+                    ><img
+                      class="partners__img"
+                      src="img/pegas.svg"
+                      alt="Pegas Touristic"
                   /></a>
                 </li>
               </ul>

@@ -20,11 +20,23 @@
 }
 
 /* Страница Услуги */
-
-.header__inner_size_small {
-  padding-bottom: 93px;
+.services-wrapper .header {
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover;
+  background-position: top;
 }
 
+.services-wrapper .header__inner {
+  padding-bottom: 23px;
+}
+
+.header-container {
+  padding-bottom: 23px;
+}
+
+.header__inner-title {
+  padding-top: 70px;
+}
 .services-wrapper .header__menu {
   margin-top: 3px;
 }
@@ -34,4 +46,14 @@
   height: 42px;
   margin-right: 66px;
   margin-left: 2px;
+}
+
+.services-wrapper .hero-title {
+  text-align: left;
+  margin-left: 1px;
+  margin-bottom: 103px;
+}
+
+.services-wrapper .breadcrumps {
+  margin-left: -1px;
 }

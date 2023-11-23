@@ -6,3 +6,7 @@
   background-color: #fff;
   opacity: 10%;
 }
+
+.services-wrapper .main__inner {
+  margin-left: 1px;
+}

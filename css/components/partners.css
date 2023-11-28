@@ -47,3 +47,12 @@
 .partners__item:nth-child(7) {
   padding-bottom: 5px;
 }
+
+.partners img {
+  filter: grayscale(100%);
+  transition: filter 0.2s ease-in;
+}
+
+.partners img:hover {
+  filter: grayscale(0%);
+}

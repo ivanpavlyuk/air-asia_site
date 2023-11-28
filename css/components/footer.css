@@ -4,12 +4,9 @@
 
 .footer__inner {
   display: flex;
+  flex-wrap: wrap;
   justify-content: start;
   align-items: center;
-  max-width: 1142px;
-  padding-top: 43px;
-  padding-bottom: 40px;
-  margin-left: 1px;
 }
 
 .footer__logo {
@@ -21,19 +18,25 @@
 }
 .footer__socials {
   display: flex;
-  margin-right: 67px;
+  margin-right: 76px;
 }
 .footer__contacts {
   text-align: right;
 }
-.footer__inner_logo_big {
+.footer_logo_big {
   margin-left: 0px;
-  padding-top: 47px;
-  padding-bottom: 32px;
+  padding-top: 48px;
+  padding-bottom: 33px;
 }
-.footer__logo_size_big {
-  width: 98px;
-  height: 42px;
+.footer_logo_big .footer__logo {
   margin-right: 66px;
-  margin-left: 2px;
+  margin-left: 1px;
+}
+
+.footer_logo_big .footer__menu {
+  margin-bottom: 6px;
+}
+
+.footer_logo_big .footer__socials {
+  margin-bottom: 10px;
 }

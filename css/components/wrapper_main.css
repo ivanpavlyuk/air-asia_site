@@ -1,0 +1,38 @@
+.wrapper_main {
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, right -5px bottom 160px;
+  background-size: contain, contain;
+}
+
+.wrapper_main header {
+  margin-bottom: 120px;
+}
+
+.wrapper_main .hero {
+  margin-bottom: 247px;
+}
+
+.wrapper_main .travels {
+  margin-bottom: 127px;
+}
+
+.wrapper_main .news {
+  margin-bottom: 144px;
+}
+
+.wrapper_main .info {
+  margin-bottom: 54px;
+}
+
+.wrapper_main .footer {
+  padding-top: 43px;
+  padding-bottom: 49px;
+}
+
+.wrapper_main main:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #fff;
+  opacity: 10%;
+}

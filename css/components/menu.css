@@ -6,6 +6,7 @@
   margin-right: 54px;
 }
 .menu__item:hover .menu__link {
+  transition: color 0.2s ease-in-out;
   color: #da0100;
 }
 

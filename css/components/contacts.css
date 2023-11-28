@@ -1,6 +1,7 @@
 .contacts {
   display: flex;
   flex-direction: column;
+  align-items: end;
 }
 
 .contacts__phone {
@@ -15,7 +16,12 @@
 
 .contacts__details_pos_bottom {
   position: relative;
+  top: 1px;
   margin-right: 2px;
   margin-top: -9px;
   text-align: right;
+}
+
+.contacts_schedule .contacts__phone {
+  margin-top: -1px;
 }

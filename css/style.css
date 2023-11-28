@@ -4,6 +4,10 @@
 
 @import url(settings/base.css);
 
+@import url(components/wrapper.css);
+@import url(components/wrapper_main.css);
+@import url(components/wrapper_index.css);
+@import url(components/wrapper_services.css);
 @import url(components/container.css);
 @import url(components/hero-title.css);
 @import url(components/about.css);
@@ -14,7 +18,6 @@
 @import url(components/header.css);
 @import url(components/hero.css);
 @import url(components/info.css);
-@import url(components/logo.css);
 @import url(components/main.css);
 @import url(components/menu.css);
 @import url(components/news.css);

@@ -1,0 +1,9 @@
+.index-wrapper__hero {
+  min-width: 591px;
+  min-height: 248px;
+  margin-right: auto;
+}
+
+.index-wrapper__hero .hero__text {
+  line-height: 1.38;
+}

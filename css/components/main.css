@@ -1,12 +1,3 @@
-.index-wrapper .main__inner:after {
-  content: "";
-  display: block;
-  height: 1px;
-  margin-top: 3px;
-  background-color: #fff;
-  opacity: 10%;
-}
-
-.services-wrapper .main__inner {
-  margin-left: 1px;
+.main {
+  flex-grow: 5;
 }

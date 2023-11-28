@@ -1,6 +1,6 @@
 .button {
   display: inline-block;
-  padding: 18px 29px 18px 30px;
+  padding: 18px 29px 16px 30px;
   font-weight: 700;
   border-radius: 35px;
   font-size: 14px;
@@ -19,9 +19,11 @@
 }
 
 .button_size_big {
-  padding: 18px 40px;
+  padding: 19px 40px 17px 40px;
 }
 
 .button_bg_red:hover {
   box-shadow: 0px 2px 4px 0px #da01004d;
+  background-color: #da0100;
+  transition: all 0.2s ease-in;
 }

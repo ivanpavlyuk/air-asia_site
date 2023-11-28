@@ -1,8 +1,3 @@
-.travels {
-  max-width: 1140px;
-  padding-bottom: 127px;
-}
-
 .travels__title {
   margin-bottom: 51px;
   margin-left: 3px;
@@ -10,13 +5,12 @@
 
 .travels__list {
   display: flex;
-  margin: 0 auto;
   gap: 27px;
   flex-wrap: wrap;
 }
 
 .travels__item {
   min-height: 449px;
-  width: 362px;
+  max-width: 362px;
   border-radius: 5px;
 }

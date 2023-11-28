@@ -1,0 +1,11 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  max-width: 1920px;
+  background-color: #001821;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.42em;
+}

@@ -20,23 +20,25 @@
   padding: 6px 11px 6px;
   font-weight: 700;
   line-height: 1.25;
+  border-radius: 50%;
 }
 
 .paginator_color_white .paginator__item:hover {
   background-color: #fff;
-  border-radius: 50%;
   cursor: pointer;
+  transition: all 0.2s ease-in;
 }
 
 .paginator_color_white .paginator__item_active {
   background-color: #fff;
-  border-radius: 50%;
   cursor: pointer;
+  transition: all 0.2s ease-in;
 }
 
 .paginator_color_white .paginator__item_active .paginator__link,
 .paginator_color_white .paginator__item:hover .paginator__link {
   color: #f5170e;
+  transition: all 0.2s ease-in;
 }
 
 .paginator_color_black,
@@ -45,18 +47,19 @@
 }
 
 .paginator_color_black .paginator__item:hover {
+  transition: all 0.2s ease-in;
   background-color: #f5170e;
-  border-radius: 50%;
   cursor: pointer;
 }
 
 .paginator_color_black .paginator__item_active {
   background-color: #f5170e;
-  border-radius: 50%;
   cursor: pointer;
+  transition: all 0.2s ease-in;
 }
 
 .paginator_color_black .paginator__item_active .paginator__link,
 .paginator_color_black .paginator__item:hover .paginator__link {
+  transition: all 0.2s ease-in;
   color: #fff;
 }

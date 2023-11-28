@@ -1,6 +1,5 @@
-.hero {
+.hero__inner {
   margin-left: 1px;
-  min-height: 579px;
 }
 
 .hero h1 {

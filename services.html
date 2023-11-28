@@ -7,75 +7,74 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="services-wrapper">
-      <header class="header" style="background-image: url(img/elephant-bg.jpg)">
+    <div class="wrapper wrapper_services">
+      <header
+        class="header header_logo_big"
+        style="background-image: url(img/elephant-bg.jpg)"
+      >
         <div class="container">
-          <div class="header-container">
-            <div class="header__inner">
-              <div class="logo header__logo header__logo_size_big">
-                <a class="logo__link" href="#"
-                  ><img
-                    class="logo__img"
-                    src="img/logo-size-bigger.svg"
-                    alt="Air Asia"
-                /></a>
-              </div>
-              <div class="header__menu">
-                <menu class="menu">
-                  <li class="menu__item">
-                    <a class="menu__link" href="./index.html">Главная</a>
-                  </li>
-                  <li class="menu__item">
-                    <a class="menu__link" href="#">Услуги</a>
-                  </li>
-                  <li class="menu__item">
-                    <a class="menu__link" href="#">Отзывы</a>
-                  </li>
-                </menu>
-              </div>
-              <div class="header__contacts">
-                <div class="contacts contacts_shedule">
-                  <a class="contacts__phone" href="tel:+78007003030"
-                    >8 800 700 30 30</a
-                  >
-                  <div class="contacts__details contacts__details_pos_bottom">
-                    <div class="schedule">
-                      <h3 class="schedule__title">
-                        <a class="schedule__link">График работы</a>
-                      </h3>
-                      <ul class="schedule__list">
-                        <li class="schedule__item">
-                          <b>пн-вс: 09:00 - 20:00</b>
-                        </li>
-                        <li class="schedule__item">Обед: 14:00-14:30</li>
-                      </ul>
-                    </div>
+          <div class="header__inner">
+            <div class="logo header__logo">
+              <a class="logo__link" href="./main.html"
+                ><img
+                  class="logo__img"
+                  src="img/logo-size-bigger.svg"
+                  alt="Air Asia"
+              /></a>
+            </div>
+            <div class="header__menu">
+              <menu class="menu">
+                <li class="menu__item">
+                  <a class="menu__link" href="./main.html">Главная</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="./services.html">Услуги</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="./feedback.html">Отзывы</a>
+                </li>
+              </menu>
+            </div>
+            <div class="header__contacts">
+              <div class="contacts contacts_schedule">
+                <a class="contacts__phone" href="tel:+78007003030"
+                  >8 800 700 30 30</a
+                >
+                <div class="contacts__details contacts__details_pos_bottom">
+                  <div class="schedule">
+                    <h3 class="schedule__title">График работы</h3>
+                    <ul class="schedule__list">
+                      <li class="schedule__item">
+                        <b>пн-вс: 09:00 - 20:00</b>
+                      </li>
+                      <li class="schedule__item">Обед: 14:00-14:30</li>
+                    </ul>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="header__inner-title">
-              <h1 class="hero-title">Услуги</h1>
-              <ul class="breadcrumps">
-                <li class="breadcrumps__item">
-                  <a class="breadcrumps__link" href="index.html">Главная</a>
-                </li>
-                <li class="breadcrumps__item">
-                  <a
-                    class="breadcrumps__link breadcrumps__link_active"
-                    href="services.html"
-                    >Услуги</a
-                  >
-                </li>
-              </ul>
-            </div>
+          </div>
+          <div class="header__title-section">
+            <h1 class="hero-title header__title">Услуги</h1>
+            <ul class="breadcrumps header__breadcrumps">
+              <li class="breadcrumps__item">
+                <a class="breadcrumps__link" href="index.html">Главная</a>
+              </li>
+              <li class="breadcrumps__item">
+                <a
+                  class="breadcrumps__link breadcrumps__link_active"
+                  href="services.html"
+                  >Услуги</a
+                >
+              </li>
+            </ul>
           </div>
         </div>
       </header>
       <main class="main">
         <div class="main__inner">
-          <div class="container">
-            <section class="offers">
+          <section class="offers">
+            <div class="container container_size_big">
               <ul class="offers__list">
                 <li class="offers__item">
                   <div class="service">
@@ -152,8 +151,8 @@
                   </li>
                 </ol>
               </div>
-            </section>
-          </div>
+            </div>
+          </section>
           <section class="partners">
             <div class="container">
               <h2>Партнеры</h2>
@@ -227,18 +226,16 @@
           </section>
         </div>
       </main>
-      <footer class="footer">
+      <footer class="footer footer_logo_big">
         <div class="container">
-          <div class="footer__inner footer__inner_logo_big">
-            <div class="footer__logo footer__logo_size_big">
-              <div class="logo">
-                <a class="logo__link" href="#"
-                  ><img
-                    class="logo__img"
-                    src="img/logo-size-bigger.svg"
-                    alt="Air Asia"
-                /></a>
-              </div>
+          <div class="footer__inner">
+            <div class="logo footer__logo">
+              <a class="logo__link" href="#"
+                ><img
+                  class="logo__img"
+                  src="img/logo-size-bigger.svg"
+                  alt="Air Asia"
+              /></a>
             </div>
             <div class="footer__menu">
               <menu class="menu">
@@ -256,16 +253,45 @@
             <div class="footer__socials">
               <ul class="socials">
                 <li class="socials__item">
-                  <a class="socials__link" href="https://google.com"></a>
+                  <a
+                    class="socials__link"
+                    href="https://telegram.org/"
+                    target="_blank"
+                  >
+                    <div class="socials__img">
+                      <span class="visually-hidden">Мы в Телеграме</span>
+                    </div>
+                  </a>
                 </li>
                 <li class="socials__item">
-                  <a class="socials__link" href="#"></a>
+                  <a
+                    class="socials__link"
+                    href="https://vk.com/"
+                    target="_blank"
+                    ><div class="socials__img">
+                      <span class="visually-hidden">Мы Вконтакте</span>
+                    </div></a
+                  >
                 </li>
                 <li class="socials__item">
-                  <a class="socials__link" href="#"></a>
+                  <a
+                    class="socials__link"
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    ><div class="socials__img">
+                      <span class="visually-hidden">Мы в Фейсбуке</span>
+                    </div></a
+                  >
                 </li>
                 <li class="socials__item">
-                  <a class="socials__link" href="#"></a>
+                  <a
+                    class="socials__link"
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    ><div class="socials__img">
+                      <span class="visually-hidden">Мы в Инстаграме</span>
+                    </div></a
+                  >
                 </li>
               </ul>
             </div>

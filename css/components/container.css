@@ -2,3 +2,7 @@
   max-width: 1142px;
   margin: 0 auto;
 }
+
+.container_size_narrow {
+  max-width: 592px;
+}

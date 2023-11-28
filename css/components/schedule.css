@@ -5,7 +5,7 @@
   line-height: 1.6em;
 }
 
-.schedule__link {
+.schedule__title {
   font-weight: 400;
   color: #98a4a8;
   font-size: 13px;
@@ -15,17 +15,20 @@
 }
 
 .schedule:hover .schedule__list {
-  display: block;
+  transition: opacity 0.3s ease-in-out;
+  transform: scale(1);
+  opacity: 1;
 }
-.schedule:hover .schedule__link {
+.schedule:hover .schedule__title {
   color: #fff;
+  transition: all 0.3s ease-in-out;
 }
 
 .schedule__list {
   width: 157px;
-  display: none;
+  transform: scale(0);
   position: absolute;
-  top: 18px;
+  top: 17px;
   right: 0px;
   padding: 21px 17px 15px 17px;
   text-align: left;
@@ -33,6 +36,7 @@
   background-image: url(../../img/shedule-bg.png);
   background-repeat: no-repeat;
   background-size: contain;
+  opacity: 0;
 }
 
 .schedule__item:nth-child(2) {

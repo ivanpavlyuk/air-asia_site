@@ -1,0 +1,23 @@
+.wrapper_services {
+  background-color: #fff;
+  letter-spacing: 0px;
+}
+
+.wrapper_services main {
+  margin-left: 1px;
+}
+
+.wrapper_services header {
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover;
+  background-position: top;
+  margin-bottom: 97px;
+}
+
+.wrapper_services .header__inner {
+  max-width: 1142px;
+}
+
+.wrapper_services .offers {
+  margin-bottom: 84px;
+}

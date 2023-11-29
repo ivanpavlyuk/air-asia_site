@@ -12,16 +12,16 @@
   line-height: 1.53em;
   cursor: pointer;
   text-decoration: underline;
+  transition: color 0.2s ease-in-out;
 }
 
 .schedule:hover .schedule__list {
-  transition: opacity 0.3s ease-in-out;
   transform: scale(1);
   opacity: 1;
+  transition: opacity 0.2s ease-in-out, transform 0.01s;
 }
 .schedule:hover .schedule__title {
   color: #fff;
-  transition: all 0.3s ease-in-out;
 }
 
 .schedule__list {
@@ -37,6 +37,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   opacity: 0;
+  transition: opacity 0.2s ease-in-out, transform 0.01s 0.2s;
 }
 
 .schedule__item:nth-child(2) {

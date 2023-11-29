@@ -48,11 +48,18 @@
   padding-bottom: 5px;
 }
 
+.partners__item:nth-child(4) img,
+.partners__item:nth-child(5) img,
+.partners__item:nth-child(7) img {
+  opacity: 0.6;
+}
+
 .partners img {
   filter: grayscale(100%);
-  transition: filter 0.2s ease-in;
+  transition: filter 0.2s ease-in, opacity 0.2s ease-in;
 }
 
 .partners img:hover {
+  opacity: 1;
   filter: grayscale(0%);
 }

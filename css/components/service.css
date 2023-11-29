@@ -1,22 +1,23 @@
 .service {
   display: flex;
+  flex-wrap: wrap;
   color: #000;
   gap: 56px;
   letter-spacing: 0;
 }
 
 .service__img-container {
-  width: 460px;
+  max-width: 460px;
   border-radius: 5px;
 }
 
 .service img {
   display: block;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .service__info {
-  width: 652px;
+  max-width: 628px;
   text-align: left;
 }
 

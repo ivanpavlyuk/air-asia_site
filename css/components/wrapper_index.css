@@ -1,9 +1,38 @@
-.index-wrapper__hero {
-  min-width: 591px;
-  min-height: 248px;
-  margin-right: auto;
+.wrapper_index {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.index-wrapper__hero .hero__text {
-  line-height: 1.38;
+.wrapper_index .hero {
+  animation: beating 0.8s 2s forwards;
+}
+
+@keyframes beating {
+  from {
+    transform: scale(0);
+    opacity: 1;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+  70% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  90% {
+    transform: scale(0.95);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }

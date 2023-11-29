@@ -6,11 +6,11 @@
   margin-right: 54px;
 }
 .menu__item:hover .menu__link {
-  transition: color 0.2s ease-in-out;
   color: #da0100;
 }
 
 .menu__link {
   font-size: 14px;
   line-height: 1.36;
+  transition: color 0.2s ease-in-out;
 }

@@ -5,6 +5,12 @@
   margin-bottom: 65px;
 }
 
+@media all and (min-width: 1196px) {
+  .offers__list {
+    margin-left: 26px;
+  }
+}
+
 .offers__paginator .paginator__counter {
   margin-left: 38px;
 }

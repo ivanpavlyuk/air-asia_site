@@ -12,3 +12,25 @@
   line-height: 1.4;
   margin-bottom: 30px;
 }
+
+/* С приветственной страницы */
+
+.hero_greeting .hero__text {
+  line-height: 1.38;
+  margin-top: -9px;
+  margin-bottom: 52px;
+}
+
+.hero_greeting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 65px 156px 0px;
+  background-repeat: no-repeat;
+  background-position: top;
+  opacity: 0;
+}
+
+.hero_greeting .hero__link {
+  margin-bottom: -55px;
+}

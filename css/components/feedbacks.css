@@ -1,0 +1,22 @@
+.feedbacks {
+  color: #1a1b1e;
+}
+
+.feedbacks .container {
+}
+
+.feedbacks__list {
+  column-count: 2;
+  column-gap: 27px;
+  margin-bottom: 83px;
+}
+
+.feedbacks__item {
+  display: inline-block;
+  max-width: 557px;
+  border-radius: 5px;
+}
+
+.feedbacks__item:not(.feedbacks__item:last-of-type) {
+  margin-bottom: 17px;
+}

@@ -1,0 +1,15 @@
+.banner .container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 363px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner__text {
+  max-width: 50%;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.35;
+}

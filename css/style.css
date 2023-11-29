@@ -8,6 +8,7 @@
 @import url(components/wrapper_main.css);
 @import url(components/wrapper_index.css);
 @import url(components/wrapper_services.css);
+@import url(components/wrapper_feedback.css);
 @import url(components/container.css);
 @import url(components/hero-title.css);
 @import url(components/about.css);
@@ -33,3 +34,10 @@
 @import url(components/partners.css);
 @import url(components/offers.css);
 @import url(components/breadcrumps.css);
+@import url(components/feedbacks.css);
+@import url(components/message.css);
+@import url(components/author.css);
+@import url(components/option.css);
+@import url(components/banner.css);
+@import url(components/send.css);
+@import url(components/form.css);

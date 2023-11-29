@@ -1,0 +1,13 @@
+.option {
+  display: inline-block;
+  padding: 0 19px;
+  text-align: center;
+  line-height: 2.5;
+  height: 37px;
+  background-color: #e7e7e7;
+  border-radius: 35px;
+}
+
+.option_selected {
+  background-color: #b9eae4;
+}

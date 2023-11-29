@@ -1,0 +1,21 @@
+.author {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.75;
+  letter-spacing: 0;
+  color: inherit;
+}
+
+.author_vk_link {
+  color: #2e77a4;
+  text-decoration: underline;
+}
+
+.author_icon_vk::after {
+  content: "";
+  display: inline-block;
+  margin-left: 8px;
+  width: 30px;
+  height: 30px;
+  background-image: url(../../img/vk-small.png);
+}

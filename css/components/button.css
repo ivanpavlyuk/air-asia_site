@@ -1,5 +1,6 @@
 .button {
   border: 0;
+  cursor: pointer;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -8,7 +9,8 @@
   border-radius: 35px;
   font-size: 14px;
   text-transform: uppercase;
-  transition: color 0.2s ease-in, background-color 0.2s ease-in;
+  transition: color 0.2s ease-in, background-color 0.2s ease-in,
+    box-shadow 0.2s ease-in;
 }
 
 .button_bg_red {

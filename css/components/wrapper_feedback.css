@@ -22,3 +22,7 @@
   flex-basis: 213px;
   margin-left: 5px;
 }
+
+.wrapper_feedback .feedbacks {
+  margin-bottom: 86px;
+}

@@ -79,11 +79,13 @@
               <li class="feedbacks__item">
                 <div class="message">
                   <div class="message__personal">
-                    <img
-                      class="message__img"
-                      src="./img/ava_1.jpg"
-                      alt="Иван Петрович"
-                    />
+                    <div class="message__img-wrapper">
+                      <img
+                        class="message__img"
+                        src="./img/ava_1.jpg"
+                        alt="Иван Петрович"
+                      />
+                    </div>
                     <div class="message__personal-text">
                       <a class="author author_icon_vk author_vk_link" href="#"
                         >Иван Петрович</a
@@ -110,11 +112,13 @@
               <li class="feedbacks__item">
                 <div class="message">
                   <div class="message__personal">
-                    <img
-                      class="message__img"
-                      src="./img/ava_2.jpg"
-                      alt="Лиза Сидорова"
-                    />
+                    <div class="message__img-wrapper">
+                      <img
+                        class="message__img"
+                        src="./img/ava_2.jpg"
+                        alt="Лиза Сидорова"
+                      />
+                    </div>
                     <div class="message__personal-text">
                       <a class="author author_icon_vk message__link" href="#"
                         >Лиза Сидорова</a
@@ -141,11 +145,13 @@
               <li class="feedbacks__item">
                 <div class="message">
                   <div class="message__personal">
-                    <img
-                      class="message__img"
-                      src="./img/ava_3.jpg"
-                      alt="Екатерина Жмых"
-                    />
+                    <div class="message__img-wrapper">
+                      <img
+                        class="message__img"
+                        src="./img/ava_3.jpg"
+                        alt="Екатерина Жмых"
+                      />
+                    </div>
                     <div class="message__personal-text">
                       <a class="author author_icon_vk message__link" href="#"
                         >Екатерина Жмых</a
@@ -177,11 +183,13 @@
               <li class="feedbacks__item">
                 <div class="message">
                   <div class="message__personal">
-                    <img
-                      class="message__img"
-                      src="./img/ava_4.jpg"
-                      alt="Антон Игоревич"
-                    />
+                    <div class="message__img-wrapper">
+                      <img
+                        class="message__img"
+                        src="./img/ava_4.jpg"
+                        alt="Антон Игоревич"
+                      />
+                    </div>
                     <div class="message__personal-text">
                       <a class="author author_icon_vk message__link" href="#"
                         >Антон Игоревич</a
@@ -236,14 +244,14 @@
             </ol>
           </div>
         </section>
-        <div class="banner" style="background-image: url(./img/banner.jpg)">
+        <section class="banner" style="background-image: url(./img/banner.jpg)">
           <div class="container">
-            <p class="banner__text">Подберем тур по вашим пожеланиям</p>
+            <h2 class="banner__text">Подберем тур по вашим пожеланиям</h2>
           </div>
-        </div>
+        </section>
         <section class="send">
           <div class="container">
-            <h2>Оставьте отзыв</h2>
+            <h2 class="send__title">Оставьте отзыв</h2>
             <form class="form" action="#">
               <ul class="form__list">
                 <li class="form__item">
@@ -253,6 +261,7 @@
                     name="name"
                     required
                     placeholder="Ваше имя"
+                    autocomplete="off"
                   />
                 </li>
                 <li class="form__item">
@@ -261,6 +270,7 @@
                     type="text"
                     name="vk"
                     placeholder="Ссылка на профиль VK"
+                    autocomplete="off"
                   />
                 </li>
               </ul>
@@ -271,95 +281,116 @@
                 cols="30"
                 rows="10"
                 placeholder="Напишите свой честный отзыв ;&#41;"
+                required
+                autocomplete="off"
               ></textarea>
               <div class="form__options">
                 <p class="form__text">Какими услугами компании пользуетесь?</p>
                 <ul class="form__options-list">
                   <li class="form__options-item">
-                    <label class="option form__options-label">
+                    <label class="form__options-label">
                       <input
                         class="form__options-input"
                         type="checkbox"
                         name="monkey"
                         id="monkey"
                       />
-                      <span class="option__text">Остров обезьян</span>
+                      <div class="option form__options-text">
+                        Остров обезьян
+                      </div>
                     </label>
                   </li>
                   <li class="form__options-item">
-                    <label class="option form__options-label">
+                    <label class="form__options-label">
                       <input
                         class="form__options-input"
                         type="checkbox"
                         name="thailand"
                         id="thailand"
                       />
-                      <span class="option__text">Тур по Тайланду</span>
+                      <div class="option form__options-text">
+                        Тур по Тайланду
+                      </div>
                     </label>
                   </li>
                   <li class="form__options-item">
-                    <label class="option option_selected form__options-label">
+                    <label class="form__options-label">
                       <input
                         class="form__options-input"
                         type="checkbox"
                         name="yangbei"
                         id="yangbei"
+                        checked
                       />
-                      <span class="option__text">Водопад Янг-бей</span>
+                      <div class="option form__options-text">
+                        Водопад Янг-бей
+                      </div>
                     </label>
                   </li>
                   <li class="form__options-item">
-                    <label class="option form__options-label">
+                    <label class="form__options-label">
                       <input
                         class="form__options-input"
                         type="checkbox"
                         name="indonesia"
                         id="indonesia"
                       />
-                      <span class="option__text">Тур по Индонезии</span>
+                      <div class="option form__options-text">
+                        Тур по Индонезии
+                      </div>
                     </label>
                   </li>
                   <li class="form__options-item">
-                    <label class="option form__options-label">
+                    <label class="form__options-label">
                       <input
                         class="form__options-input"
                         type="checkbox"
                         name="nothing"
                         id="nothing"
                       />
-                      <span class="option__text">Никакими</span>
+                      <div class="option form__options-text">Никакими</div>
                     </label>
                   </li>
                   <li class="form__options-item">
-                    <label class="option form__options-label">
+                    <label class="form__options-label">
                       <input
                         class="form__options-input"
                         type="checkbox"
                         name="bali"
                         id="bali"
                       />
-                      <span class="option__text">Тур по Бали</span>
+                      <div class="option form__options-text">Тур по Бали</div>
                     </label>
                   </li>
                   <li class="form__options-item">
-                    <label class="option form__options-label">
+                    <label class="form__options-label">
                       <input
                         class="form__options-input"
                         type="checkbox"
                         name="other"
                         id="other"
                       />
-                      <span class="option__text">Другое</span>
+                      <div class="option form__options-text">Другое</div>
                     </label>
                   </li>
                 </ul>
               </div>
               <ul class="form__buttons-list">
                 <li class="form__buttons-item">
-                  <button class="button_bg_grey" type="reset">Очистить</button>
+                  <button
+                    class="button button_bg_grey button_size_large form__button"
+                    type="reset"
+                  >
+                    Очистить
+                  </button>
                 </li>
                 <li class="form__buttons-item">
-                  <button class="button_bg_red" type="submit">Отправить</button>
+                  <button
+                    class="button button_bg_red button_size_big"
+                    type="submit"
+                  >
+                    Отправить
+                  </button>
                 </li>
               </ul>
             </form>

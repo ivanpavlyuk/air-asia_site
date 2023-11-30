@@ -1,11 +1,14 @@
 .about {
-  width: 785px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
   min-height: 455px;
+  max-width: 785px;
   border-radius: 5px;
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
-  padding: 72px 81px 66px;
+  padding: 69px 79px 66px;
 }
 
 .about__title {

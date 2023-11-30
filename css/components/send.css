@@ -1,0 +1,13 @@
+.send {
+  background-color: #f4f5f5;
+  padding-top: 62px;
+  padding-bottom: 96px;
+}
+
+.send__title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #1a1b1e;
+  margin-bottom: 57px;
+}

@@ -1,11 +1,16 @@
 .option {
-  display: inline-block;
-  padding: 0 19px;
-  text-align: center;
-  line-height: 2.5;
+  display: inline-flex;
+  padding: 0 17px;
+  justify-content: center;
+  align-items: center;
   height: 37px;
   background-color: #e7e7e7;
   border-radius: 35px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #303030;
+  user-select: none;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .option_selected {

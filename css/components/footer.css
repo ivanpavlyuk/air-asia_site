@@ -15,10 +15,12 @@
 }
 .footer__menu {
   margin-right: auto;
+  margin-bottom: 3px;
 }
 .footer__socials {
   display: flex;
-  margin-right: 76px;
+  margin-right: 75px;
+  margin-bottom: 6px;
 }
 .footer__contacts {
   text-align: right;

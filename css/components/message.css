@@ -10,9 +10,17 @@
   margin-bottom: 27px;
 }
 
-.message img {
+.message__img-wrapper {
   border-radius: 50%;
   margin-left: -2px;
+  width: 142px;
+  height: 142px;
+  overflow: hidden;
+}
+
+.message img {
+  border-radius: 50%;
+  object-fit: contain;
 }
 
 .message__personal-text {

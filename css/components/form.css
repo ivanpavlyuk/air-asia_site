@@ -1,0 +1,94 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 28px;
+  margin-bottom: 26px;
+}
+
+.form__item {
+  flex-grow: 2;
+}
+
+.form__name {
+  display: block;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  height: 65px;
+  border-radius: 5px;
+  padding: 20px 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.38;
+}
+
+.form__name:focus {
+  outline: 1px solid #f5170e;
+}
+
+.form__textarea {
+  height: 235px;
+  resize: none;
+  border: 0;
+  border-radius: 5px;
+  padding: 30px;
+  margin-bottom: 23px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.38;
+}
+
+.form__textarea:focus {
+  outline: 1px solid #f5170e;
+}
+
+.form__options {
+  display: flex;
+  column-gap: 74px;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.form__text {
+  color: #1a1b1e;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.38;
+  min-width: 32%;
+  margin-top: 11px;
+}
+
+.form__options-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.form__options-input {
+  display: none;
+}
+
+.form__options-input:checked ~ .option {
+  background-color: #b9eae4;
+}
+
+.form__options-label {
+  cursor: pointer;
+}
+
+.form__buttons-list {
+  margin-left: auto;
+  display: flex;
+  column-gap: 17px;
+}
+
+.form__button {
+  border: 0;
+  cursor: pointer;
+}

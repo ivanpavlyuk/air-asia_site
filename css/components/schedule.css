@@ -22,6 +22,7 @@
 }
 .schedule:hover .schedule__title {
   color: #fff;
+  text-decoration: none;
 }
 
 .schedule__list {

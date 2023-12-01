@@ -1,3 +1,8 @@
+.offers {
+  padding-top: 97px;
+  padding-bottom: 84px;
+}
+
 .offers__list {
   display: flex;
   flex-direction: column;

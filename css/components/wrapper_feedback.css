@@ -11,7 +11,6 @@
   background-repeat: no-repeat, no-repeat;
   background-size: cover;
   background-position: top;
-  margin-bottom: 97px;
 }
 
 .wrapper_feedback .header__inner {
@@ -21,8 +20,4 @@
 .wrapper_feedback .header__title {
   flex-basis: 213px;
   margin-left: 5px;
-}
-
-.wrapper_feedback .feedbacks {
-  margin-bottom: 86px;
 }

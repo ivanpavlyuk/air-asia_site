@@ -11,13 +11,8 @@
   background-repeat: no-repeat, no-repeat;
   background-size: cover;
   background-position: top;
-  margin-bottom: 97px;
 }
 
 .wrapper_services .header__inner {
   max-width: 1142px;
-}
-
-.wrapper_services .offers {
-  margin-bottom: 84px;
 }

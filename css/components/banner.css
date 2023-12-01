@@ -1,10 +1,13 @@
+.banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .banner .container {
+  min-height: 363px;
   display: flex;
   justify-content: start;
   align-items: center;
-  min-height: 363px;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .banner__text {

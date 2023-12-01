@@ -1,5 +1,6 @@
 .menu {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .menu__item:not(.menu__item:last-child) {

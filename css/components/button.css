@@ -44,3 +44,7 @@
 .button_bg_grey:hover {
   background-color: #2b2b2b;
 }
+
+.button_size_extra-large {
+  padding: 18px 58px;
+}

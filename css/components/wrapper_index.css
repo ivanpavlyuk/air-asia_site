@@ -1,34 +1,10 @@
-.wrapper_index {
+.wrapper_index .wrapper__hero {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.wrapper_index .hero {
-  animation: beating 0.8s 2s forwards;
-}
-
-@keyframes beating {
-  from {
-    transform: scale(0);
-    opacity: 1;
-  }
-  30% {
-    transform: scale(1.2);
-  }
-  50% {
-    transform: scale(0.9);
-  }
-  70% {
-    transform: scale(1.1);
-  }
-  90% {
-    transform: scale(0.95);
-  }
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
+  font-size: 18px;
+  line-height: 1.4;
+  background-size: cover;
 }

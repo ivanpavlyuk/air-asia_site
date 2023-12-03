@@ -1,7 +1,7 @@
 .section-title {
   display: flex;
   font-size: 36px;
-  line-height: 1.36em;
+  line-height: 1.35em;
   font-weight: 700;
   color: #fff;
 }
@@ -19,4 +19,8 @@
 
 .section-title_color_black {
   color: #000;
+}
+
+.section-title_size_big {
+  font-size: 48px;
 }

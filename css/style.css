@@ -4,6 +4,7 @@
 
 @import url(settings/base.css);
 
+@import url(components/logo-animation.css);
 @import url(components/wrapper.css);
 @import url(components/wrapper_main.css);
 @import url(components/wrapper_index.css);

@@ -1,0 +1,45 @@
+.logo-animation {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding-top: 65px;
+  margin-bottom: -55px;
+  animation: beating 0.8s 2s forwards;
+}
+
+.logo-animation::before {
+  content: url(../../img/index_hero_shades.png);
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  z-index: -5;
+}
+
+.logo-animation__text {
+  margin-top: -12px;
+  margin-bottom: 53px;
+}
+
+@keyframes beating {
+  from {
+    transform: scale(0);
+    opacity: 1;
+  }
+  30% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  70% {
+    transform: scale(1.1);
+  }
+  90% {
+    transform: scale(0.95);
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

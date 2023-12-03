@@ -5,7 +5,7 @@
   align-items: center;
   padding-top: 65px;
   margin-bottom: -55px;
-  animation: beating 0.8s 2s forwards;
+  animation: beating 0.8s 3s forwards;
   opacity: 0;
 }
 
